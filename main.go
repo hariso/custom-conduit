@@ -15,6 +15,7 @@
 package main
 
 import (
+	chaos "github.com/conduitio-labs/conduit-connector-chaos"
 	mongo "github.com/conduitio-labs/conduit-connector-mongo"
 	"github.com/conduitio/conduit/pkg/conduit"
 )
@@ -24,6 +25,7 @@ func main() {
 	cfg := conduit.DefaultConfig()
 
 	cfg.ConnectorPlugins["mongo"] = mongo.Connector
+	cfg.ConnectorPlugins["chaos"] = chaos.Connector
 
 	e := &conduit.Entrypoint{}
 	e.Serve(cfg)

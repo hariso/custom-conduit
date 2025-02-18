@@ -3,6 +3,7 @@ module github.com/hariso/custom-conduit
 go 1.23.4
 
 require (
+	github.com/conduitio-labs/conduit-connector-chaos v0.2.0
 	github.com/conduitio-labs/conduit-connector-mongo v0.1.3-0.20250213103521-7bd121463a73
 	github.com/conduitio/conduit v0.13.1
 )

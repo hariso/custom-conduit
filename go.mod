@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	github.com/conduitio-labs/conduit-connector-chaos v0.2.0
-	github.com/conduitio-labs/conduit-connector-mongo v0.2.0
+	github.com/conduitio-labs/conduit-connector-mongo v0.2.1-0.20250219104458-1cad5343a14e
 	github.com/conduitio-labs/conduit-connector-mysql v0.1.1
 	github.com/conduitio/conduit v0.13.1
 )

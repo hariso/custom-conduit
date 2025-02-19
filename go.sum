@@ -231,8 +231,8 @@ github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGX
 github.com/colinmarc/hdfs/v2 v2.1.1/go.mod h1:M3x+k8UKKmxtFu++uAZ0OtDU8jR3jnaZIAc6yK4Ue0c=
 github.com/conduitio-labs/conduit-connector-chaos v0.2.0 h1:Gg1KOOzLd0pMZEt40cx13ppFSSJbYvrvEYQP6EhPfTs=
 github.com/conduitio-labs/conduit-connector-chaos v0.2.0/go.mod h1:pZboTykg3bFt3HalvonZM9FTRKeVMahBbqZIuS7CORo=
-github.com/conduitio-labs/conduit-connector-mongo v0.2.0 h1:g4tqjGjAhNNuvSKVMPKJkYj/GBlV8LwZvGzn+C6peTY=
-github.com/conduitio-labs/conduit-connector-mongo v0.2.0/go.mod h1:Fb4Ib+LjijWKwsGttN2CFSKdnnJsMCutLLBGV3XnTfs=
+github.com/conduitio-labs/conduit-connector-mongo v0.2.1-0.20250219104458-1cad5343a14e h1:JbNlZTIFk07cQOnrKRTkCgmNiDYSZzEbACIjq9OTKyM=
+github.com/conduitio-labs/conduit-connector-mongo v0.2.1-0.20250219104458-1cad5343a14e/go.mod h1:VKbSyIfEM9hw28ld+y/58CK/stxZ89lFH8zCrl+enQs=
 github.com/conduitio-labs/conduit-connector-mysql v0.1.1 h1:K12P/3Z4dTshyck9qSl0MXqP4irCFLK2f4RRovhuKtU=
 github.com/conduitio-labs/conduit-connector-mysql v0.1.1/go.mod h1:cZVqtpnv9CathG1f3gfGgF7rb5K/dVb3YhEPkbUkSvM=
 github.com/conduitio/conduit v0.13.1 h1:teV+oYtuUi3umDop9qJ77gCD07l+3XuQ2d9avlGJru4=

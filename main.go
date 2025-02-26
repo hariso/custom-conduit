@@ -18,6 +18,7 @@ import (
 	chaos "github.com/conduitio-labs/conduit-connector-chaos"
 	mongo "github.com/conduitio-labs/conduit-connector-mongo"
 	mysql "github.com/conduitio-labs/conduit-connector-mysql"
+	"github.com/conduitio/conduit/cmd/conduit/cli"
 	"github.com/conduitio/conduit/pkg/conduit"
 )
 
@@ -25,10 +26,11 @@ func main() {
 	// Get the default configuration, including all built-in connectors
 	cfg := conduit.DefaultConfig()
 
+	cfg.Preview.PipelineArchV2 = true
+
 	cfg.ConnectorPlugins["mongo"] = mongo.Connector
 	cfg.ConnectorPlugins["chaos"] = chaos.Connector
 	cfg.ConnectorPlugins["mysql"] = mysql.Connector
 
-	e := &conduit.Entrypoint{}
-	e.Serve(cfg)
+	cli.Run(cfg)
 }

@@ -14,6 +14,10 @@ build: check-go-version
 	@echo "Get started by running:"
 	@echo " ./conduit run"
 
+.PHONY: docker-build
+docker-build:
+	docker build . -t custom-conduit:latest
+
 .PHONY: run
 run:
 	go run main.go

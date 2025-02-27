@@ -26,8 +26,6 @@ func main() {
 	// Get the default configuration, including all built-in connectors
 	cfg := conduit.DefaultConfig()
 
-	cfg.Preview.PipelineArchV2 = true
-
 	cfg.ConnectorPlugins["mongo"] = mongo.Connector
 	cfg.ConnectorPlugins["chaos"] = chaos.Connector
 	cfg.ConnectorPlugins["mysql"] = mysql.Connector

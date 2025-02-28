@@ -17,4 +17,4 @@ EXPOSE 8080/tcp
 EXPOSE 8084/tcp
 WORKDIR /app
 COPY --from=base /app/conduit /app
-CMD ["/app/conduit", "run"]
+CMD ["/app/conduit", "run", "--preview.pipeline-arch-v2=true", "--log.level=debug"]

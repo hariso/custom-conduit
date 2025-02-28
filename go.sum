@@ -237,8 +237,8 @@ github.com/conduitio-labs/conduit-connector-mongo v0.2.1 h1:BQhZO1f3S7lVByuD9h7X
 github.com/conduitio-labs/conduit-connector-mongo v0.2.1/go.mod h1:V8i2JGgo6d2AduMO0y6rDRGVN2ci6JRpfSf/d6xcreI=
 github.com/conduitio-labs/conduit-connector-mysql v0.1.1 h1:K12P/3Z4dTshyck9qSl0MXqP4irCFLK2f4RRovhuKtU=
 github.com/conduitio-labs/conduit-connector-mysql v0.1.1/go.mod h1:cZVqtpnv9CathG1f3gfGgF7rb5K/dVb3YhEPkbUkSvM=
-github.com/conduitio/conduit v0.14.0-nightly.20250226.0.20250226171658-565a6811e092 h1:wWS3na8XuWjUxNUyZknoek/VTWTJJq3IPN1V0PXiVfY=
-github.com/conduitio/conduit v0.14.0-nightly.20250226.0.20250226171658-565a6811e092/go.mod h1:bX471WDz4xGt28mR5mgVi0+05UQd/XQ8ZPLakO3qTb0=
+github.com/conduitio/conduit v0.14.0-nightly.20250228.0.20250228103245-80385605b57a h1:r9nflutXilHBi6xhjW1Rex6JflDoBFgQeizdLcqw8I8=
+github.com/conduitio/conduit v0.14.0-nightly.20250228.0.20250228103245-80385605b57a/go.mod h1:GMzi4qNSCCEmlZQkpZGOI5EG45yk67rRkbF9tVgDIKY=
 github.com/conduitio/conduit-commons v0.5.1 h1:o6Lh3LhBuorDfVVlWyj3tYoYbBUUPTMiJE2zefiBuSo=
 github.com/conduitio/conduit-commons v0.5.1/go.mod h1:FmJI9zOxX+HDiqculivPmekaUASZdubOJnI8sOOLAXk=
 github.com/conduitio/conduit-connector-file v0.10.0 h1:LaN8qHKvvA0OmgxB2cincDT2UmtWe/2/uQDEU3eXjGo=
@@ -255,8 +255,8 @@ github.com/conduitio/conduit-connector-protocol v0.9.1 h1:NhazVIoJOOuX+9xAiL3WZ0
 github.com/conduitio/conduit-connector-protocol v0.9.1/go.mod h1:S3Rar9si3GJUolwtFhO2CL3DpuWmJxzce4W+Psi/8zQ=
 github.com/conduitio/conduit-connector-s3 v0.9.0 h1:O4EcPEbL6WxfltbpsqufsxQpPW8cW2QVEBquPlLlKWU=
 github.com/conduitio/conduit-connector-s3 v0.9.0/go.mod h1:Z+pioyjF70Q6mPOdY1u63A1gA+cD5KvnCvNdnLpzMjM=
-github.com/conduitio/conduit-connector-sdk v0.13.1 h1:Fw5KHm8Y7LdtLibeLW+dYA9IAHx/1GuWx8VLZcBkvg0=
-github.com/conduitio/conduit-connector-sdk v0.13.1/go.mod h1:rduMJDB541+dolgZdCkPPaJk2CHPaTe1FUnV1YvwTl0=
+github.com/conduitio/conduit-connector-sdk v0.13.2-0.20250228095323-5c8098a7f73c h1:76ybn8GfUfE4wTuCGbt23UQz+bAnOWZBdIDTi4ZZFq8=
+github.com/conduitio/conduit-connector-sdk v0.13.2-0.20250228095323-5c8098a7f73c/go.mod h1:rduMJDB541+dolgZdCkPPaJk2CHPaTe1FUnV1YvwTl0=
 github.com/conduitio/conduit-processor-sdk v0.4.1 h1:u1K2JGC02/EHh9StUQxu0umVUqtTN3JhfMTBKhhB1dA=
 github.com/conduitio/conduit-processor-sdk v0.4.1/go.mod h1:ul2G08Oo9dD+jrehYa5hY+L4CAB1L/HkBmne24Ql5ec=
 github.com/conduitio/conduit-schema-registry v0.2.3 h1:Rx2FfnslgD+C5ea9CDSV6O2Wkd0oU0qzmxkyH9S1OX8=

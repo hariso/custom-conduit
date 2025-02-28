@@ -16,7 +16,7 @@ build: check-go-version
 
 .PHONY: docker-build
 docker-build:
-	docker build . -t custom-conduit:latest
+	docker build . -t custom-conduit-local:latest
 
 .PHONY: run
 run:

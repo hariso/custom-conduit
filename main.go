@@ -18,6 +18,7 @@ import (
 	chaos "github.com/conduitio-labs/conduit-connector-chaos"
 	mongo "github.com/conduitio-labs/conduit-connector-mongo"
 	mysql "github.com/conduitio-labs/conduit-connector-mysql"
+	snowflake "github.com/conduitio-labs/conduit-connector-snowflake"
 	"github.com/conduitio/conduit/cmd/conduit/cli"
 	"github.com/conduitio/conduit/pkg/conduit"
 )
@@ -29,6 +30,7 @@ func main() {
 	cfg.ConnectorPlugins["mongo"] = mongo.Connector
 	cfg.ConnectorPlugins["chaos"] = chaos.Connector
 	cfg.ConnectorPlugins["mysql"] = mysql.Connector
+	cfg.ConnectorPlugins["snowflake"] = snowflake.Connector
 
 	cli.Run(cfg)
 }
